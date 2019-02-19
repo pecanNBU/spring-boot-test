@@ -1,0 +1,12 @@
+mybatis:
+  mapperLocations: classpath:mybatis/*-mapper.xml
+  config: classpath:mybatis/mybatis-conf.xml
+  typeAliasesPackage: com.fndroid
+  checkConfigLocation: false
+
+spring:
+  datasource:
+    url: jdbc:mysql://cloudera3:3306/binlog?serverTimezone=UTC&useSSL=false
+    username: root
+    password: dashu0701
+    driver-class-name: com.mysql.cj.jdbc.Driver
